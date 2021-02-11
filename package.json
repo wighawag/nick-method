@@ -1,0 +1,20 @@
+{
+  "name": "nick-method",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/elliptic": "^6.4.12",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "@ethersproject/bignumber": "^5.0.14",
+    "@zoltu/rlp-encoder": "^2.0.3",
+    "elliptic": "^6.5.4",
+    "js-sha3": "^0.8.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
